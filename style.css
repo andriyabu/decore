@@ -271,8 +271,6 @@ body{
     .header nav ul li a:hover{
         background: var(--orange);
         color: #fff;
-        /* width: 100%; */
-        /* padding: 1.7rem 3rem; */
     }
 
     .header .nav-toggle{
