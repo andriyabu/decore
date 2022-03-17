@@ -23,6 +23,14 @@ $(document).ready(function(){
             complete : function(){
                 $this.text(this.countNum + '+');
             }
-        })
+        });
+    });
+
+    $('.project').magnificPopup({
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
+        }
     });
 });
